@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #c7eefc;
+    border-bottom: 2px solid black;
+}
+
+header div {
+    width: 45%;
+}
+
+header div img {
+    padding: 1%;
+    border-radius: 20%;
+    width: 30%;
+}
+main{
+    background-color: #c7eefc;
+}
+
+nav {
+    width: 50%;
+    background-color: #c7eefc;
+
+}
+
+ul {
+    list-style-type: none;
+    background-color: #c7eefc;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navegacion li a {
+    padding: 4%;
+    background-color: #abe8b5;
+    border-style: ridge;
+    border: 4px solid #abe8b5;
+    margin-right: 30px;
+
+}
+
+.navegacion li a:hover {
+    background-color: #ccffd3;
+
+}
+
+h1 {
+    text-align: center;
+    color: #D73125;
+    background-color: #abe8b5;
+}
+
+.contenido-novedad {
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-novedad img {
+    width: 1000px;
+    margin-top: 20px;
+}
+
+
+.ubicacion img {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    width: 1000px;
+
+}
+
+.contenedor-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contenedor img {
+    width: 500px;
+    opacity: 0.7;
+    border: 6px solid #abe8b5
+}
+
+.contenedor img:hover {
+    opacity: 2;
+}
+
+.contenedor-img article {
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+}
+
+.contenedor-img-nenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor-nenes img {
+    width: 370px;
+    opacity: 0.7;
+    border: 6px solid #abe8b5
+}
+
+.contenedor-nenes img:hover {
+    opacity: 2;
+}
+
+.contenedor-img-nenes article {
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+}
+
+.contenedor-img-nenas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor-img-nenas article {
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+}
+
+.contenedor-nenas img {
+    width: 370px;
+    opacity: 0.7;
+    border: 6px solid #abe8b5
+}
+
+.contenedor-nenas img:hover {
+    opacity: 2;
+}
+
+.container {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.container{
+    font-size: 16px;
+    padding: 50px;
+    text-align: center;
+}
+
+.container img {
+    width: 283px;
+    opacity: 0.7;
+    border: 6px solid #abe8b5
+}
+
+.container img:hover {
+    opacity: 2;
+}
+
+.seccion-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seccion-img article {
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+}
+
+.seccion-sexo img {
+    width: 370px;
+    opacity: 0.7;
+    border: 6px solid #abe8b5
+}
+
+.seccion-sexo img:hover {
+    opacity: 2;
+}
+
+.informacion-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 300px;
+}
+
+.subtitulo {
+    font-size: 25px;
+    margin-left: 5%;
+
+}
+
+.sub-ubi {
+    text-decoration: underline;
+}
+
+.sub-hor {
+    text-decoration: underline;
+}
+
+.sub-tel {
+    text-decoration: underline;
+}
+
+.sub-correo {
+    text-decoration: underline;
+}
+
+.contenedor-padre {
+    display: flex;
+    justify-content: center;
+}
+
+.informacion-contacto p {
+    font-size: 16px;
+    margin-left: -25%;
+}
+
+.ubicacion-img-maps img {
+    width: 700px;
+    height: 400px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div {
+    width: auto;
+}
+
+footer div p {
+    text-align: center;
+    background-color: #c7eefc;
+    color: #D73125;
+    font-size: 20px;
+
+}
+
+.redes_sociales {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #abe8b5;
+}
+
+i {
+    font-size: 60px;
+}
+
+
+.card{
+    margin-right: 20px;
+}
+/* 
+.container-producto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-producto .card{
+    flex: 1 1 600px;
+
+} */
+
+
