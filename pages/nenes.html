@@ -2,112 +2,149 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nenes</title>
-    <!--CDN Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nenes</title>
+  <!--CDN Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
 <body>
-    <header>
-        <div>
-            <a href="../index.html"><img src="../assets/img/logo-2.png" alt=""></a>
+  <header>
+    <div>
+      <a href="../index.html"><img src="../assets/img/logo-2.png" alt=""></a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand keychainify-checked" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active keychainify-checked" href="../index.html">Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link keychainify-checked" href="/pages/bebes.html">Bebes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link keychainify-checked" href="/pages/nenas.html">Nenas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link keychainify-checked" href="/pages/nenes.html">Nenes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link keychainify-checked" href="/pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link keychainify-checked" href="/pages/contacto.html">Contacto</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle keychainify-checked" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item keychainify-checked" href="#">Action</a>
+                      <a class="dropdown-item keychainify-checked" href="#">Another action</a>
+                      <a class="dropdown-item keychainify-checked" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item keychainify-checked" href="#">Separated link</a>
+                    </div>
+                  </li> -->
+          </ul>
+          <!-- <form class="d-flex">
+                  <input class="form-control me-sm-2" type="search" placeholder="Search">
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
         </div>
-        <nav>
-            <input placeholder="Buscar" type="text">
-            <ul class="navegacion">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./bebes.html">Bebes</a></li>
-                <li><a href="./nenas.html">Nenas</a></li>
-                <li><a href="./nenes.html">Nenes</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Miemilbye Shop Online</h1>
-        <!--CARD BOOTSTRAP-->
-        <section class="container">
-            <div class="card" style="width: 23.2rem;">
-                <img src="../assets/img/Nenes/nenes-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Añadir al carrito</a>
-                </div>
-            </div>
-            <!--CARD BOOTSTRAP-->
+      </div>
+    </nav>
 
-            <div class="card" style="width: 23.2rem;">
-                <img src="../assets/img/Nenes/nenes-2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Añadir al carrito</a>
-                </div>
-            </div>
-            <!--CARD BOOTSTRAP-->
-            <div class="card" style="width: 23.2rem;">
-                <img src="../assets/img/Nenes/nenes-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Añadir al carrito</a>
-                </div>
-            </div>
-            <!--CARD BOOTSTRAP-->
-            <div class="card" style="width: 23.2rem;">
-                <img src="../assets/img/Nenes/nenes-4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Añadir al carrito</a>
-                </div>
-
-            </div>
-
-        </section>
-
-
-    </main>
-    <footer>
-        <ul class="redes_sociales">
-            <li><a href="https://www.instagram.com/laboulayemiemi/?hl=es-la" target="_blank"
-                    rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/miemi.laboulaye" target="_blank" rel="noopener noreferrer"><i
-                        class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://walink.co/b8aa6c" target="_blank" rel="noopener noreferrer"><i
-                        class="fa-brands fa-whatsapp"></i></a></li>
-        </ul>
-        <div>
-            <p><strong>Copyright © 2022 | Todos los derechos reservados.</strong></p>
+  </header>
+  <main>
+    <h1>Miemilbye Shop Online</h1>
+    <!--CARD BOOTSTRAP-->
+    <section class="container">
+      <div class="card">
+        <img src="../assets/img/Nenes/nenes-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+            the
+            card's content.</p>
+          <a href="#" class="btn btn-primary">Añadir al carrito</a>
         </div>
-    </footer>
+      </div>
+      <!--CARD BOOTSTRAP-->
 
-    <!--CDN Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-        </script>
+      <div class="card">
+        <img src="../assets/img/Nenes/nenes-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+            the
+            card's content.</p>
+          <a href="#" class="btn btn-primary">Añadir al carrito</a>
+        </div>
+      </div>
+      <!--CARD BOOTSTRAP-->
+      <div class="card">
+        <img src="../assets/img/Nenes/nenes-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+            the
+            card's content.</p>
+          <a href="#" class="btn btn-primary">Añadir al carrito</a>
+        </div>
+      </div>
+      <!--CARD BOOTSTRAP-->
+      <div class="card">
+        <img src="../assets/img/Nenes/nenes-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+            the
+            card's content.</p>
+          <a href="#" class="btn btn-primary">Añadir al carrito</a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+  <footer>
+    <ul class="redes_sociales">
+      <li><a href="https://www.instagram.com/laboulayemiemi/?hl=es-la" target="_blank" rel="noopener noreferrer"><i
+            class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://www.facebook.com/miemi.laboulaye" target="_blank" rel="noopener noreferrer"><i
+            class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="https://walink.co/b8aa6c" target="_blank" rel="noopener noreferrer"><i
+            class="fa-brands fa-whatsapp"></i></a></li>
+    </ul>
+    <div>
+      <p class="copi-footer5"><strong>Copyright © 2022 | Todos los derechos reservados.</strong></p>
+    </div>
+  </footer>
+
+  <!--CDN Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
 
 </body>
 
