@@ -317,3 +317,27 @@ i {
     opacity: 1;
     transform: scale(1.1);
 }
+
+@media (max-width:400px){
+    body{
+        width: 400px;
+    }
+    .seccion-img article{
+        padding: 0;
+        margin-left: 15px;
+    }
+    .copi-footer{
+        font-size: 13px;
+    }
+    .footer-wapp{
+        margin-right: 30px;
+    }
+
+
+    .container{
+        display: inline-block;
+    }
+    #card-bebe{
+        width: 0;
+    }
+}
